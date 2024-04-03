@@ -78,10 +78,10 @@ export default function Home() {
               R$ {p.price}
             </div>
             <div className="flex-grow"></div>
-            <button className="hover:bg-blue-700 transition-all rounded-md border-2 bg-blue-400 p-2 min-w-full">COMPRAR</button>
+            <button className="hover:bg-red-700 transition-all rounded-md border-2 bg-red-500 p-2 min-w-full">COMPRAR</button>
             <button onClick={() => {
               addTocart(p)
-            }} className="hover:bg-green-700 transition-all rounded-md border-2 bg-green-400 p-2 min-w-full">ADICIONAR AO CARRINHO</button>
+            }} className="hover:bg-cyan-700 transition-all rounded-md border-2 bg-cyan-500 p-2 min-w-full">ADICIONAR AO CARRINHO</button>
           </div>)
         })}
         
